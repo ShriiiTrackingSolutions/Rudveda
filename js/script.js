@@ -1,8 +1,8 @@
 // WhatsApp URL Adjuster (Responsive)
 (function () {
   const whatsappLinks = [
-    "https://web.whatsapp.com/send?phone=916354710794",
-    "https://api.whatsapp.com/send?phone=916354710794"
+    "https://web.whatsapp.com/send?phone=919429184432",
+    "https://api.whatsapp.com/send?phone=919429184432"
   ];
 
   function updateWhatsAppLink() {
@@ -70,7 +70,7 @@ function loadHeaderFooter(callback) {
                       <li class="navLi"><a href="#" class="navLink">link 3</a></li>
                     </ul>
                   </li>
-                  <li class="navLi"><a href="#" class="navLink">Contact</a></li>
+                  <li class="navLi"><a href="contact.html" class="navLink">Contact</a></li>
                 </ul>
                 <a href="" class="btnoutline d-none d-sm-inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><path d="M9 10c0 3.866 3 7 3 7s3-3.134 3-7s-3-7-3-7s-3 3.134-3 7"/><path d="M6.33 8C4.115 7.046 2 7 2 7s.096 4.381 2.857 7.143S12 17 12 17s4.381-.096 7.143-2.857S22 7 22 7s-2.114.046-4.33 1m-5.65 9c-.166 1.333.64 4 3.494 4c1.995 0 2.993-2 6.486 0c-.4-2-1.2-3.28-2.367-4m-7.654 0c.167 1.333-.64 4-3.492 4C6.49 21 5.493 19 2 21c.4-2 1.2-3.28 2.367-4"/></g></svg>Book Now</a>
               </div>
@@ -128,7 +128,7 @@ function loadHeaderFooter(callback) {
                 <a class="footerLinkHover" href="index.html">Home</a>
                 <a class="footerLinkHover" href="">About</a>
                 <a class="footerLinkHover" href="">Classes</a>
-                <a class="footerLinkHover" href="">Contact</a>
+                <a class="footerLinkHover" href="contact.html">Contact</a>
               </div>
         </div>
       </div>
