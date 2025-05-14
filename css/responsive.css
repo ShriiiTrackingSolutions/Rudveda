@@ -83,9 +83,6 @@
   }
 
 
-  .footer .container > .row {
-    row-gap: 30px;
-  }
   .container-fluid.header .btnoutline{
 order: 2;
   }
@@ -105,14 +102,21 @@ order: 2;
 .navMenu {
   gap: 4px;
 }
+.footerContacts .row{
+  row-gap: 24px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footerContacts .row .col-lg-4{
+max-width: 342px;
+}
 
 }
+
+
 @media (max-width: 767.98px) {
-  .footer,
-  .footer .secH,
-  .leadingTeamCard {
-    text-align: center;
-  }
+
   .display-2 {
     font-size: 32px;
     line-height: 58px;
@@ -131,61 +135,12 @@ order: 2;
   .defaultPadding {
     padding: 50px 0;
   }
-  .footer.defaultPadding {
-    padding: 34px 0;
-  }
-  .footer .secH {
-    margin-bottom: 24px;
-  }
-  .footer .container > .row {
-    justify-content: center;
-    row-gap: 40px;
-  }
-  /* .footer .social-icons {
-    justify-content: center;
-  } */
-  .footer .exploreLinks ul li,
-  .footer .exploreLinks1 ul li {
-    text-align: left;
-  }
-  .footer-brand {
-    display: table !important;
-    margin: auto;
-  }
-  .footer .locationLink {
-    max-width: 304px;
-  }
-  .footer ul:not(.footer .exploreLinks1 ul) {
-    max-width: 304px;
-    margin: auto;
-  }
-  .footer .exploreLinks1 ul {
-    max-width: 352px;
-    margin: auto;
-  }
-  .footer .exploreLinks ul {
-    width: 154px;
-    max-width: 154px !important;
-    margin: auto;
-  }
-  .footer ul.contact-info{
-    width: 296.5px;
-    max-width: 296.5px;
-  }
-
+ 
 }
 
 @media (max-width: 575.98px) {
  
 
-  .footer .fourthH {
-    margin-bottom: 20px;
-  }
-  .footer .social-icons {
-    justify-content: center;
-    padding-left: 0;
-    padding-right: 48px;
-  }
 
 }
 
