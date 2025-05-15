@@ -818,3 +818,43 @@ text-align: center;
   width: 50px;
   height: 50px;
 }
+
+.formSection img{
+  border-radius: 12px;
+}
+
+.form-label{
+  margin-top: 16px;
+  color: var(--primary-color);
+}
+
+.form-control{
+  border: none;
+  box-shadow: #6956a433  0px 1px 0px, #6956a433  0px 8px 24px, #6956a433  0px 16px 48px;
+}
+textarea.form-control{
+  resize: none;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: #86b7fe;
+    box-shadow: #6956a466 0px 1px 0px, #6956a466  0px 8px 24px, #6956a466  0px 16px 48px;
+  }
+  
+  
+  .form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+  box-shadow: rgba(220, 53, 69, .25) 0px 1px 0px, rgba(220, 53, 69, .25)  0px 8px 24px, rgba(220, 53, 69, .25)  0px 16px 48px;
+}
+
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus{
+  box-shadow: rgba(25, 135, 84, .25) 0px 1px 0px, rgba(25, 135, 84, .25)  0px 8px 24px, rgba(25, 135, 84, .25)  0px 16px 48px;
+}
+.formSection .container>.row{
+  row-gap: 40px;
+}
+
+.mapSection iframe{
+min-height: 500px;
+margin-bottom: -8px;
+}

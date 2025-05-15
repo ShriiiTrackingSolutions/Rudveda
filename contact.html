@@ -52,7 +52,9 @@
 
 <section class="formSection defaultPadding">
       <div class="container">
-        <div class="row align-items-center callDetails">
+        <h2 class="secH text-center">Reach Us</h2>
+        <p class="text-center">A space where your healing begins. Connect with us for class inquiries, therapy sessions, or wellness consultations.</p>
+        <div class="row align-items-center callDetails mt-5">
           <div class="col-xl-6 formPart">
             <form class="row needs-validation ContactForm" id="contactForm" novalidate="">
               <div class="col-lg-6">
@@ -95,9 +97,11 @@
               </div>
 
               <!-- Modal Launcher for Mobile -->
-              <button type="button" class="btnoutline  mt-4 d-table mx-auto d-md-none" data-bs-toggle="modal" data-bs-target="#whatsappButton">
+              <div class="col-12">
+                <button type="button" class="btnoutline  mt-4 d-table mx-auto d-md-none" data-bs-toggle="modal" data-bs-target="#whatsappButton">
                 Submit
               </button>
+              </div>
 
               <!-- WhatsApp Modal -->
               <div class="modal fade" id="whatsappButton" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -133,13 +137,16 @@
           </div>
 
           <div class="col-xl-6 ps-xl-5">
-            <img loading="lazy" src="image/Home/formimg.webp" alt="building">
+            <img loading="lazy" src="image/ContactPic.webp" alt="a women doing yoga">
           </div>
         </div>
       </div>
     </section>
 
 
+    <section class="mapSection">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7382.633520721039!2d73.1660494!3d22.303857!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc96acf86b42b%3A0x936e74bfe9e17963!2sRUDVEDA%20The%20Healing%20Center!5e0!3m2!1sen!2sin!4v1747285920116!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
 
 
 
@@ -315,7 +322,7 @@
         // Initialize logic based on screen size
         function initializeLogic() {
           const isMobile = $(window).width() <= 767.98;
-          const phoneNumber = "918780486659";
+          const phoneNumber = "919429184432";
           const standardWhatsAppUrl = `intent://send?phone=${phoneNumber}&text=`;
           const businessWhatsAppUrl = `intent://send?phone=${phoneNumber}&text=`;
 
