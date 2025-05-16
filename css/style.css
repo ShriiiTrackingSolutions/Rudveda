@@ -792,6 +792,7 @@ justify-content: center;
 .newBanner .display-2{
 color: #ffffff;
 text-align: center;
+margin-bottom: 0;
 }
 
 
@@ -912,3 +913,117 @@ max-width: 175px;
   color: #ffffff;
 }
 /* astrology Services end */
+
+
+/* राशि section start */
+.rashiSection{
+  background-color: var(--lightBg);
+}
+.rashiSection .container>.row{
+  row-gap: 24px;
+}
+.ZodiacCards {
+  text-align: center;
+  background-color: var(--fade);
+  padding: 12px;
+  color: var(--primary-color);
+}
+.birthDates{
+  padding: 8px;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  color: #ffffff;
+}
+/* राशि section end */
+
+
+/* Vastu for Your Space start */
+.maxPara{
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+.ulStyles{
+  font-size: 18px;
+}
+.ulStyles li::marker {
+    color: var(--secondary-color);
+}
+.VastuForYourSpace .container>.row{
+  align-items: center;
+  row-gap: 24px;
+}
+/* Vastu for Your Space end */
+
+/* Explore Vastu section start */
+.exploreVastu {
+  background: linear-gradient(#8d2de2c4,#8d2de2c4), url('../image/exploreVastuBack.webp') no-repeat center;
+  background-size: cover,cover;
+  color: #ffffff;
+}
+.exploreVastu  .secH{
+  color: #ffffff;
+}
+.exloreVastuCards{
+  text-align: center;
+}
+.exploreVastu .container>.row{
+  row-gap: 24px;
+}
+/* Explore Vastu section end */
+
+/* Why Vastu section start */
+.whyVastu .therdH{
+  color: var(--primary-color);
+}
+.whyVastu .container>.row{
+  row-gap: 24px;
+}
+
+/* Why Vastu section end */
+
+/* Enhancing Mental Health section start */
+.enhancingMentalHealth .ulStyles li{
+  margin-top: 8px;
+}
+.enhancingMentalHealth .container>.row{
+  row-gap: 24px;
+}
+.enhancingMentalHealth img{
+  border-radius: 8px;
+}
+.enhancingMentalHealth .therdH{
+  color: var(--primary-color);
+}
+.bigPara{
+  font-size: 28px;
+}
+
+/* Enhancing Mental Health section end */
+
+/* What Science Says start */
+.scienceSection{
+  padding: 16px;
+  background: linear-gradient(#8d2de29c,#8d2de29c), url('../image/whatScienceSay.webp') no-repeat center;
+  background-size: cover,cover;
+  color: #ffffff;
+}
+.whatScienceSay{
+  background: linear-gradient(#0000009c,#0000009c), url('../image/Banner3.webp') no-repeat center;
+  background-size: cover,cover;
+  color: #ffffff;
+}
+.whatScienceSay .container>.row{
+  row-gap: 24px;
+  align-items: center;
+}
+.scienceSection .secH{
+  color: #ffffff;
+}
+.typescard .fifthH{
+  margin-top: 8px;
+}
+.typesYogaRow{
+  row-gap: 24px;
+}
+/* What Science Says end */

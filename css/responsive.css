@@ -26,6 +26,10 @@
   .therdH {
     font-size: 26px;
   }
+
+  .VastuForYourSpace .container>.row{
+  align-items: start;
+}
   
 }
 
@@ -143,8 +147,12 @@ max-width: 342px;
 }
 
 @media (max-width: 575.98px) {
- 
-
+   .ZodiacCards .fourthH{
+    font-size: 14px;
+  }
+  .ZodiacCards .birthDates{
+    font-size: 12px;
+  }
 
 }
 

@@ -50,8 +50,8 @@ function loadHeaderFooter(callback) {
                   <li class="navLi"><a class="navLink" href="#">Ayurveda</a></li>
                   <li class="navLi"><a class="navLink" href="#">Panchkarma</a></li>
                   <li class="navLi"><a class="navLink" href="astrology.html">Astrology</a></li>
-                  <li class="navLi"><a class="navLink" href="#">Vastu</a></li>
-                  <li class="navLi"><a class="navLink" href="#">Mental Health</a></li>
+                  <li class="navLi"><a class="navLink" href="vastu.html">Vastu</a></li>
+                  <li class="navLi"><a class="navLink" href="mentalHealth.html">Mental Health</a></li>
                   <li class="navLi">
                     <a href="#" class="navLink">Classes 
                       <span class="toggleSub"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg></span>
