@@ -160,7 +160,7 @@ img {
 .navMenu {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 8px;
   padding: 0;
 }
 
@@ -173,7 +173,7 @@ img {
   font-family: 'Libre Franklin';
   text-decoration: none;
   color: var(--accentColour);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   padding: 26px 8px;
   display: block;
@@ -248,12 +248,17 @@ img {
     right: -100%;
     width: 250px;
     height: 100vh;
-    background: var(--accentColour);
+    background: var(--fade);
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
     flex-direction: column;
     padding-top: 60px;
     transition: right 0.4s ease-in-out;
+    overflow-y: auto;
   }
+
+  .navLink {
+    font-size: 18px;
+}
 
   .navMenu.active {
     right: 0;
@@ -858,3 +863,52 @@ textarea.form-control{
 min-height: 500px;
 margin-bottom: -8px;
 }
+
+
+/* astrology welcome section start */
+.experienceText .fourthH{
+max-width: 175px;
+}
+.astrologyWelcome{
+  background: url('../image/AstrobannBack.webp') center/cover no-repeat;
+  color: #ffffff;
+}
+.astrologyWelcome .secH{
+  color: #ffffff;
+}
+/* astrology welcome section end */
+
+
+/* astrology Services start */
+.astroServiceCard{
+  height: 100%;
+  text-align: center;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.astroicon{
+  width: 100px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.astrologyServices .container>.row{
+  row-gap: 24px;
+}
+.astrocardText {
+  color: var(--primary-color);
+}
+.astrocardText p{
+  color: var(--secondary-color);
+}
+
+.astroServiceCard:hover{
+  background: url('../image/serviceCardBack.webp') center/cover no-repeat;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.astroServiceCard:hover .astrocardText{
+  color: #ffffff;
+}
+.astroServiceCard:hover .astrocardText p{
+  color: #ffffff;
+}
+/* astrology Services end */

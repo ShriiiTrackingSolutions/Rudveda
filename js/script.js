@@ -46,20 +46,12 @@ function loadHeaderFooter(callback) {
                     <button class="btn-nav-close"><span class="close-btn">+</span></button>
                   </li>
                   <li class="navLi"><a class="navLink" href="index.html">Home</a></li>
-                  <li class="navLi">
-                    <a href="#" class="navLink">About 
-                      <span class="toggleSub">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16">
-                          <path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/>
-                        </svg>
-                      </span>
-                    </a>
-                    <ul class="dropdownList">
-                      <li class="navLi"><a href="#" class="navLink">Rudveda Profile</a></li>
-                      <li class="navLi"><a href="#" class="navLink">link 2</a></li>
-                      <li class="navLi"><a href="#" class="navLink">link 3</a></li>
-                    </ul>
-                  </li> 
+                  <li class="navLi"><a class="navLink" href="#">Yoga</a></li>
+                  <li class="navLi"><a class="navLink" href="#">Ayurveda</a></li>
+                  <li class="navLi"><a class="navLink" href="#">Panchkarma</a></li>
+                  <li class="navLi"><a class="navLink" href="astrology.html">Astrology</a></li>
+                  <li class="navLi"><a class="navLink" href="#">Vastu</a></li>
+                  <li class="navLi"><a class="navLink" href="#">Mental Health</a></li>
                   <li class="navLi">
                     <a href="#" class="navLink">Classes 
                       <span class="toggleSub"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg></span>
@@ -72,7 +64,6 @@ function loadHeaderFooter(callback) {
                   </li>
                   <li class="navLi"><a href="contact.html" class="navLink">Contact</a></li>
                 </ul>
-                <a href="" class="btnoutline d-none d-sm-inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><path d="M9 10c0 3.866 3 7 3 7s3-3.134 3-7s-3-7-3-7s-3 3.134-3 7"/><path d="M6.33 8C4.115 7.046 2 7 2 7s.096 4.381 2.857 7.143S12 17 12 17s4.381-.096 7.143-2.857S22 7 22 7s-2.114.046-4.33 1m-5.65 9c-.166 1.333.64 4 3.494 4c1.995 0 2.993-2 6.486 0c-.4-2-1.2-3.28-2.367-4m-7.654 0c.167 1.333-.64 4-3.492 4C6.49 21 5.493 19 2 21c.4-2 1.2-3.28 2.367-4"/></g></svg>Book Now</a>
               </div>
             </nav>
 `; // Keep your current header HTML here
