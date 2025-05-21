@@ -49,8 +49,7 @@ function loadHeaderFooter(callback) {
                   <li class="navLi"><a class="navLink" href="#">Yoga</a></li>
                   <li class="navLi"><a class="navLink" href="#">Ayurveda</a></li>
                   <li class="navLi"><a class="navLink" href="#">Panchkarma</a></li>
-                  <li class="navLi"><a class="navLink" href="astrology.html">Astrology</a></li>
-                  <li class="navLi"><a class="navLink" href="vastu.html">Vastu</a></li>
+                  <li class="navLi"><a class="navLink" href="https://shriiitrackingsolutions.github.io/Rudveda_Astro/">Astrology</a></li>
                   <li class="navLi"><a class="navLink" href="mentalHealth.html">Mental Health</a></li>
                   <li class="navLi">
                     <a href="#" class="navLink">Classes 

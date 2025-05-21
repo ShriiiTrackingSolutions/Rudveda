@@ -1007,6 +1007,7 @@ max-width: 175px;
   background: linear-gradient(#8d2de29c,#8d2de29c), url('../image/whatScienceSay.webp') no-repeat center;
   background-size: cover,cover;
   color: #ffffff;
+  border-radius: 8px;
 }
 .whatScienceSay{
   background: linear-gradient(#0000009c,#0000009c), url('../image/Banner3.webp') no-repeat center;
@@ -1027,3 +1028,12 @@ max-width: 175px;
   row-gap: 24px;
 }
 /* What Science Says end */
+
+/* Expert Tips for Mental Wellness section start */
+.expertTips .container>.row{
+  row-gap: 24px;
+}
+.expertTips img{
+  border-radius: 8px;
+}
+/* Expert Tips for Mental Wellness section end */
