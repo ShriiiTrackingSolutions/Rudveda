@@ -1037,3 +1037,121 @@ max-width: 175px;
   border-radius: 8px;
 }
 /* Expert Tips for Mental Wellness section end */
+
+
+/* ayurvedic treatment list start */
+
+.ayurvedicTreatmentList table {
+  border-collapse: collapse;
+  color: #000000;
+  position: relative;
+  width: 100%;
+}
+.ayurvedicTreatmentList .tableWrapper {
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ddd; /* Optional: Adds a visible border for clarity */
+}
+
+.ayurvedicTreatmentList th, 
+.ayurvedicTreatmentList td {
+  text-align: left;
+  vertical-align: text-top;
+  padding: 8px;
+}
+
+
+.ayurvedicTreatmentList th:first-of-type {
+  position: sticky;
+  left: 0;
+  z-index: 2; /* Makes the first column appear above other content */
+  max-width: 270px;
+  min-width: 182px;
+}
+
+.ayurvedicTreatmentList table tr:nth-child(even)> th{
+    background-color: #ded0ee;
+}
+.ayurvedicTreatmentList table tr:nth-child(odd)> th{
+    background-color: #ffffff;
+}
+
+.ayurvedicTreatmentList table tr.fst_Table>th {
+  position: sticky;
+  top: 0;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  z-index: 3; /* Ensures the header row appears above everything else */
+}
+
+.ayurvedicTreatmentList .fst_Table .fst_TH {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color); /* Ensures the top-left corner stays consistent */
+  z-index: 4; /* Highest z-index to prevent conflicts */
+}
+
+.ayurvedicTreatmentList tr:nth-child(even) {
+  background-color: #ded0ee;
+}
+
+/* All Types of Tensile Fabric table section end */
+
+/* ayurveda Book appointment  section start */
+.enhancingMentalHealth.ayurvedaPage0 .form-select{
+  border: none;
+  box-shadow: #6956a433 0px 1px 0px, #6956a433 0px 8px 24px, #6956a433 0px 16px 48px; 
+}
+.enhancingMentalHealth.ayurvedaPage0{
+  background: linear-gradient(#00000093, #00000093) 0 0 / cover, url(../image/AyurvedaAppointment.webp) center / cover no-repeat;
+  color: #ffffff;
+}
+.enhancingMentalHealth.ayurvedaPage0 .secH{
+  color: #ffffff;
+}
+.enhancingMentalHealth.ayurvedaPage0 .formPart{
+  background-color: var(--extraLight);
+  color: #000000;
+  padding: 20px;
+}
+.form-select.is-invalid:focus, .was-validated .form-select:invalid:focus{
+    box-shadow: rgba(220, 53, 69, .25) 0px 1px 0px, rgba(220, 53, 69, .25) 0px 8px 24px, rgba(220, 53, 69, .25) 0px 16px 48px;
+}
+.form-select.is-valid:focus, .was-validated .form-select:valid:focus{
+    box-shadow: rgba(25, 135, 84, .25) 0px 1px 0px, rgba(25, 135, 84, .25) 0px 8px 24px, rgba(25, 135, 84, .25) 0px 16px 48px;
+}
+/* ayurveda Book appointment  section end */
+
+/* Treatments offered section start */
+.TreatmentsOffered {
+  background-color: var(--lightBg);
+}
+.TreatmentsOffered h2.therdH{
+  color: var(--primary-color);
+}
+.UlStyleUI{
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 4px;
+  justify-content: space-between;
+}
+.UlStyleUI li{
+  display: inline-block;
+  width: 49%;
+}
+.UlStyleUI li a{
+  color: var(--accentColour);
+  transition: color 0.3s ease-in-out;
+  font-weight: 600;
+}
+.UlStyleUI li a:hover{
+  color: var(--primary-color);
+}
+.UlStyleUI li a i{
+  color: var(--primary-color);
+}
+/* Treatments offered section end */

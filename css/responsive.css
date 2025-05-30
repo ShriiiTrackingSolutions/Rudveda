@@ -8,6 +8,14 @@
   --fade: #c1ace6;               /* Faded lavender-purple for shadows */
   --extraLight: #f9f7fc;         /* Almost white with lavender tint */
 }
+
+
+@media (max-width: 1700.98px) {
+  .newBanner {
+    padding: 120px 0;
+    background: linear-gradient(#00000073, #00000073) 0 0 / cover,url("../image/NewBanner.webp") right/cover no-repeat;
+}
+}
 @media (max-width: 1399.98px) {
   
 }
@@ -144,6 +152,63 @@ max-width: 342px;
     padding: 50px 0;
   }
  
+}
+
+ @media screen and (max-width: 600px) {
+  .ayurvedicTreatmentList table {
+    min-width: unset;
+    width: 100%;
+  }
+
+  .ayurvedicTreatmentList th:first-of-type {
+    position: static;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    z-index: 2;
+  }
+
+  .ayurvedicTreatmentList table tr>th:first-of-type {
+    position: sticky;
+    left: 0;
+    color: #ffffff;
+    background-color: var(--primary-color);
+    z-index: 2;
+}
+
+.ayurvedicTreatmentList table tr>th:first-of-type::after{
+content: "Ayur. Treat.";
+background-color: var(--secondary-color);
+padding: 2px 4px;
+border-radius: 50px;
+color: #ffffff;
+position: absolute;
+right: 4px;
+top: 50%;
+font-size: 9px;
+transform: translateY(-50%);
+}
+
+  table.ResponsiveTable thead {
+    display: none;
+  }
+
+  table.ResponsiveTable tbody td {
+    display: block;
+  }
+
+  table.ResponsiveTable tbody tr td:first-child {
+    background: #666;
+    color: #fff;
+  }
+
+  table.ResponsiveTable tbody td:before {
+    content: attr(data-th);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+
 }
 
 @media (max-width: 575.98px) {

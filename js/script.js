@@ -47,7 +47,7 @@ function loadHeaderFooter(callback) {
                   </li>
                   <li class="navLi"><a class="navLink" href="index.html">Home</a></li>
                   <li class="navLi"><a class="navLink" href="#">Yoga</a></li>
-                  <li class="navLi"><a class="navLink" href="#">Ayurveda</a></li>
+                  <li class="navLi"><a class="navLink" href="ayurveda.html">Ayurveda</a></li>
                   <li class="navLi"><a class="navLink" href="#">Panchkarma</a></li>
                   <li class="navLi"><a class="navLink" href="https://shriiitrackingsolutions.github.io/Rudveda_Astro/">Astrology</a></li>
                   <li class="navLi"><a class="navLink" href="mentalHealth.html">Mental Health</a></li>
@@ -104,7 +104,7 @@ function loadHeaderFooter(callback) {
                   <div class="col-lg-4">
                     <div class="callLinkwrap">
                       <div class="footConIcon">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="34px" height="34px" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m12.065 21.243l-.006-.005zm.182-.274a29 29 0 0 0 3.183-3.392c2.04-2.563 3.281-5.09 3.365-7.337a6.8 6.8 0 1 0-13.591 0c.085 2.247 1.327 4.774 3.366 7.337a29 29 0 0 0 3.183 3.392q.166.15.247.218zm-.985 1.165S4 16.018 4 10a8 8 0 1 1 16 0c0 6.018-7.262 12.134-7.262 12.134c-.404.372-1.069.368-1.476 0M12 12.8a2.8 2.8 0 1 0 0-5.6a2.8 2.8 0 0 0 0 5.6m0 1.2a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="34px" height="34px" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="16" cy="11" r="4"/><path d="M24 15c-3 7-8 15-8 15s-5-8-8-15s2-13 8-13s11 6 8 13"/></g></svg>
                       </div>
                       <div class="footConText">
                         <h5 class="fifthH">Main Center</h5>
