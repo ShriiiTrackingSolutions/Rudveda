@@ -728,6 +728,7 @@ scale: 86%;
   position: relative;
   background-color: #ffffff;
   text-align: left;
+  text-transform: capitalize;
   height: 100%;
   border: 1px solid #00000013;
   padding: 12px 12px;
@@ -1129,6 +1130,9 @@ max-width: 175px;
 .TreatmentsOffered h2.therdH{
   color: var(--primary-color);
 }
+.TreatmentsOffered .container>.row{
+  row-gap: 24px;
+}
 .UlStyleUI{
   padding: 0;
   margin: 0;
@@ -1155,3 +1159,87 @@ max-width: 175px;
   color: var(--primary-color);
 }
 /* Treatments offered section end */
+
+
+/* Treatment Philosophy start */
+.handWriting{
+  font-family: 'Gabriola', 'MV Boli', 'Snell Roundhand', 'Apple Chancery', cursive;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #3a3a3a;
+  background-color: #fefaf3;
+  padding: 1rem 2rem;
+  border-left: 4px solid #8bc34a;
+}
+.treatmentPhilosophy .container>.row{
+  row-gap: 24px;
+  align-items: center;
+}
+/* Treatment Philosophy end */
+
+/* Science of Ayurveda section start */
+.ScienceOfAyurveda{
+background: linear-gradient(#00000073, #00000073) 0 0 / cover, url('../image/ScienceOfAyurveda.webp') right / cover no-repeat;
+color: #ffffff;
+}
+.ScienceOfAyurveda .secH{
+  color: #ffffff;
+}
+.ScienceOfAyurveda .fourthH{
+  text-align: justify;
+}
+
+/* Science of Ayurveda section end */
+
+/* Body types as per Ayurveda Section start */
+.maxPara{
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+.BodyTypeCard{
+  text-align: center;
+}
+.BodyTypeCard .fourthH{
+  margin-top: 12px;
+}
+.BodyTypesAyurveda .container>.row{
+  row-gap: 24px;
+}
+
+/* Body types as per Ayurveda Section end */
+
+
+.book-appointment-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.9rem;
+  border-radius: 0;
+  border-top: 1px solid #711eb9;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+.book-appointment-btn i{
+  margin-right: 8px;
+}
+
+.book-appointment-btn:hover {
+  background-color: var(--secondary-color);
+  border-top: 1px solid #0c6ba1;
+  color: #fff;
+  text-decoration: none;
+}
+.book-appointment-btn:active {
+  background-color: var(--primary-color) !important;
+  border: none;
+  border-top: 1px solid #711eb9 !important;
+  color: #fff !important;
+}

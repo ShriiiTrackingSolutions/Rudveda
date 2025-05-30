@@ -38,7 +38,11 @@
   .VastuForYourSpace .container>.row{
   align-items: start;
 }
-  
+
+.UlStyleUI li {
+    font-size: 13px;
+}
+
 }
 
 @media (max-width: 1024.98px) {
@@ -126,6 +130,21 @@ max-width: 342px;
 .newBanner{
   padding: 120px 0;
   background: url('../image/newBannMobBack.webp') center no-repeat,linear-gradient(#8e2de2,#8e2de2);
+}
+
+.treatmentPhilosophy .container>.row{
+  flex-direction: column-reverse;
+}
+
+.fab-container.floatingButtonPage0 {
+  bottom: 70px;
+}
+.Call-fab-container.floatingButtonPage0 {
+  bottom: 138px;
+}
+
+.footer.floatingButtonPage0{
+  margin-bottom: 57.14px;
 }
 
 }
