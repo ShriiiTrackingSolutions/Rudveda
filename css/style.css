@@ -1243,3 +1243,118 @@ color: #ffffff;
   border-top: 1px solid #711eb9 !important;
   color: #fff !important;
 }
+
+/* FAQs Panchkarma section start */
+.FAQsPanchkarma .therdH {
+  color: var(--primary-color);
+  margin-bottom: 40px;
+}
+
+
+.accordion-button {
+    background-color: var(--fade);
+}
+.accordion-body{
+  background-color: var(--lightBg);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: var(--primary-color);
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../image/accordion-arrow-down.svg');
+}
+
+
+/* FAQs Panchkarma section end */
+
+/* Benefits of Panchakarma section start */
+.benefitOfPanchakarma{
+  background: linear-gradient(#00000083, #00000083) 0 0 / cover, url('../image/BenefitsofBack.webp') right / cover no-repeat;
+  color: #ffffff;
+}
+.benefitOfPanchakarma .secH{
+  color: #ffffff;
+}
+.benefitOfPanchakarma .container>.row{
+  row-gap: 24px;
+}
+/* Benefits of Panchakarma section end */
+
+/* History of Panchakarma Therapy section start */
+.historyOfPanchakarma img{
+  border-radius: 8px;
+}
+.historyOfPanchakarma .container>.row{
+  row-gap: 24px;
+  align-items: center;
+}
+.historyOfPanchakarma .therdH {
+  color: var(--primary-color);
+  margin-bottom: 40px;
+}
+/* History of Panchakarma Therapy section end */
+
+/* Panchakarma infertility treatment section start */
+.panchakarmaInfertilityTreatment .container>.row{
+  row-gap: 24px;
+  align-items: center;
+}
+.panchakarmaInfertilityTreatment img{
+  border-radius: 8px;
+}
+.panchakarmaInfertilityTreatment .therdH {
+  color: var(--primary-color);
+  margin-bottom: 40px;
+}
+/* Panchakarma infertility treatment section end */
+
+/* Who Should Avoid Panchakarma start */
+.whoShouldAvoidPanchakarma .container>.row{
+  row-gap: 24px;
+  align-items: center;
+}
+.whoShouldAvoidPanchakarma img{
+  border-radius: 8px;
+}
+.whoShouldAvoidPanchakarma .therdH {
+  color: var(--primary-color);
+  margin-bottom: 40px;
+}
+/* Who Should Avoid Panchakarma end */
+
+.tab-content{
+  flex: 1 0 0%;
+}
+
+.nav {
+  row-gap: 8px;
+}
+
+.nav-pills .nav-link {
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 100px;
+  background-color: #8d2de200;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #ffffff;
+    background-color: var(--primary-color);
+}
+
+.nav-pills .nav-link:not(.active):hover {
+  color: var(--black);
+}
+.tabSectionAyurveda .tab-content .therdH {
+  color: var(--primary-color);
+}
+

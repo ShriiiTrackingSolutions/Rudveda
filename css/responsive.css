@@ -146,6 +146,9 @@ max-width: 342px;
 .footer.floatingButtonPage0{
   margin-bottom: 57.14px;
 }
+.whoShouldAvoidPanchakarma .container>.row{
+  flex-direction: column-reverse;
+}
 
 }
 
