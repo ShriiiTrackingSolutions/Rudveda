@@ -173,7 +173,15 @@ max-width: 342px;
   .defaultPadding {
     padding: 50px 0;
   }
- 
+ .MainRowNavPills{
+  flex-direction: column;
+  row-gap: 40px;
+ }
+ .nav.nav-pills  {
+  margin-right: 0 !important;
+  flex-direction: row !important;
+  gap: 8px;
+}
 }
 
  @media screen and (max-width: 600px) {
