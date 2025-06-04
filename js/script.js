@@ -46,21 +46,12 @@ function loadHeaderFooter(callback) {
                     <button class="btn-nav-close"><span class="close-btn">+</span></button>
                   </li>
                   <li class="navLi"><a class="navLink" href="index.html">Home</a></li>
-                  <li class="navLi"><a class="navLink" href="#">Yoga</a></li>
+                  <li class="navLi"><a class="navLink" href="Yoga.html">Yoga</a></li>
                   <li class="navLi"><a class="navLink" href="ayurveda.html">Ayurveda</a></li>
                   <li class="navLi"><a class="navLink" href="panchkarma.html">Panchkarma</a></li>
                   <li class="navLi"><a class="navLink" href="https://shriiitrackingsolutions.github.io/Rudveda_Astro/">Astrology</a></li>
-                  <li class="navLi"><a class="navLink" href="mentalHealth.html">Mental Health</a></li>
-                  <li class="navLi">
-                    <a href="#" class="navLink">Classes 
-                      <span class="toggleSub"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg></span>
-                    </a>
-                    <ul class="dropdownList">
-                      <li class="navLi"><a href="#" class="navLink">link 1</a></li>
-                      <li class="navLi"><a href="#" class="navLink">link 2</a></li>
-                      <li class="navLi"><a href="#" class="navLink">link 3</a></li>
-                    </ul>
-                  </li>
+                  <li class="navLi"><a class="navLink" href="mentalHealthAyurveda.html">Mental Health</a></li>
+                  <li class="navLi"><a href="classes.html" class="navLink">Classes</a></li>
                   <li class="navLi"><a href="contact.html" class="navLink">Contact</a></li>
                 </ul>
               </div>
