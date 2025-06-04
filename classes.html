@@ -91,13 +91,7 @@
      <div class="coming-soon-box shadow">
     <h1 class="mb-3">🚀 Coming Soon</h1>
     <p class="mb-4">We are working hard to bring you an amazing experience. Stay tuned!</p>
-    
-    <div class="timer" id="countdown">
-      <div class="time-box"><h2 id="days">0</h2><span>Days</span></div>
-      <div class="time-box"><h2 id="hours">0</h2><span>Hours</span></div>
-      <div class="time-box"><h2 id="minutes">0</h2><span>Minutes</span></div>
-      <div class="time-box"><h2 id="seconds">0</h2><span>Seconds</span></div>
-    </div>
+  
 
     <!-- <form class="mt-4">
       <div class="input-group">
@@ -214,26 +208,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-      <script>
-    // Set your launch date here
-    const launchDate = new Date("2027-08-01T00:00:00").getTime();
 
-    const countdown = setInterval(() => {
-      const now = new Date().getTime();
-      const distance = launchDate - now;
-
-      if (distance < 0) {
-        clearInterval(countdown);
-        document.getElementById("countdown").innerHTML = "Launched!";
-        return;
-      }
-
-      document.getElementById("days").innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
-      document.getElementById("hours").innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      document.getElementById("minutes").innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      document.getElementById("seconds").innerText = Math.floor((distance % (1000 * 60)) / 1000);
-    }, 1000);
-  </script>
 
     <script defer src="js/script.js"></script>
   </body>
