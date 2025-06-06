@@ -59,6 +59,10 @@
     url("../image/BannerMOB3.webp") center/cover no-repeat;
 }
 
+.navLink {
+    font-size: 15px;
+}
+
 }
 
 @media screen and (device-width: 1024px) and (device-height: 600px) and (orientation: landscape) {
