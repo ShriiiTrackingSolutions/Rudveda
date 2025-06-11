@@ -52,7 +52,7 @@ function loadHeaderFooter(callback) {
                   <li class="navLi"><a class="navLink" href="https://shriiitrackingsolutions.github.io/Rudveda_Astro/">Astrology</a></li>
                   <li class="navLi"><a class="navLink" href="mentalHealthAyurveda.html">Mental Health</a></li>
                   <li class="navLi"><a href="vastu.html" class="navLink">Vastu</a></li>
-                  <li class="navLi"><a href="classes.html" class="navLink">Gurukul Sanskar</a></li>
+                  <li class="navLi"><a href="gurukulSanskar.html" class="navLink">Gurukul Sanskar</a></li>
                   <li class="navLi"><a href="contact.html" class="navLink">Contact</a></li>
                 </ul>
               </div>
@@ -108,8 +108,8 @@ function loadHeaderFooter(callback) {
               </div>
               <div class="footerPageLinks">
                 <a class="footerLinkHover" href="index.html">Home</a>
-                <a class="footerLinkHover" href="">About</a>
-                <a class="footerLinkHover" href="">Classes</a>
+                <a class="footerLinkHover" href="panchkarma.html">Panchkarma</a>
+                <a class="footerLinkHover" href="gurukulSanskar.html">Gurukul Sanskar</a>
                 <a class="footerLinkHover" href="contact.html">Contact</a>
               </div>
         </div>
