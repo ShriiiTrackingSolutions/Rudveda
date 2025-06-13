@@ -462,13 +462,28 @@ img {
   background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
     url("../image/Banner3.webp") center/cover no-repeat;
 }
-#ca1.owl-carousel .item2 .bannerCard,
-.bannerCard{
-  margin: auto;
+.astroBanner #ca1.owl-carousel .item1 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/AstrobannBack.webp") center/cover no-repeat;
 }
+.astroBanner #ca1.owl-carousel .item2 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/AstrobannBack.webp") center/cover no-repeat;
+}
+.astroBanner #ca1.owl-carousel .item3 {
+  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+    url("../image/AstrobannBack.webp") center/cover no-repeat;
+}
+.experienceText .secH{
+color: #ffffff;
+}
+
 .bannertext1 {
   border-radius: 25px;
   text-align: center;
+}
+.astroBanner .bannertext1 {
+  text-align: left;
 }
 
 .Banner .btnoutline{
@@ -562,6 +577,7 @@ scale: 86%;
 }
 .footerPageLinks{
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
   padding: 16px 0;
@@ -1114,6 +1130,12 @@ max-width: 175px;
   background-color: var(--extraLight);
   color: #000000;
   padding: 20px;
+}
+
+.enhancingMentalHealth .formPart .fourthH{
+ font-family: 'TAN - PEARL', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: var(--primary-color);
+ font-size: 17px;
 }
 .form-select.is-invalid:focus, .was-validated .form-select:invalid:focus{
     box-shadow: rgba(220, 53, 69, .25) 0px 1px 0px, rgba(220, 53, 69, .25) 0px 8px 24px, rgba(220, 53, 69, .25) 0px 16px 48px;

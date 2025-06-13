@@ -253,6 +253,18 @@ transform: translateY(-50%);
     font-size: 12px;
   }
 
+  .astroBanner #ca1.owl-carousel .item {
+    padding: 80px 12px;
+    height: unset;
+  }
+     .astroBanner #ca1.owl-carousel .item > .container {
+    position: relative;
+    left: unset;
+    top: unset;
+    right: unset;
+    transform: unset;
+    width: auto;
+  }
 }
 
 @media only screen and (max-height: 539.98px) {
