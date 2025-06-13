@@ -26,6 +26,9 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
 
 #main-header,
 .secH {
@@ -1016,6 +1019,25 @@ max-width: 175px;
   font-size: 28px;
 }
 
+.btn-purple {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+.btn-purple:hover {
+  background-color: #5e3274;
+  color: #fff;
+}
+
+.meditationSessionCard .fourthH{
+  color: var(--primary-color);
+}
+.meditationSessionCard p{
+  color: var(--black);
+}
+
+
 /* Enhancing Mental Health section end */
 
 /* What Science Says start */
@@ -1231,40 +1253,6 @@ color: #ffffff;
 
 /* Body types as per Ayurveda Section end */
 
-
-.book-appointment-btn {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1050;
-  background-color: var(--primary-color);
-  color: white;
-  text-align: center;
-  font-weight: 600;
-  font-size: 1.1rem;
-  padding: 0.9rem;
-  border-radius: 0;
-  border-top: 1px solid #711eb9;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease;
-}
-.book-appointment-btn i{
-  margin-right: 8px;
-}
-
-.book-appointment-btn:hover {
-  background-color: var(--secondary-color);
-  border-top: 1px solid #0c6ba1;
-  color: #fff;
-  text-decoration: none;
-}
-.book-appointment-btn:active {
-  background-color: var(--primary-color) !important;
-  border: none;
-  border-top: 1px solid #711eb9 !important;
-  color: #fff !important;
-}
 
 /* FAQs Panchkarma section start */
 .FAQsPanchkarma .therdH {

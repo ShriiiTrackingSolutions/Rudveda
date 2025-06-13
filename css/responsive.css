@@ -140,16 +140,6 @@ max-width: 342px;
   flex-direction: column-reverse;
 }
 
-.fab-container.floatingButtonPage0 {
-  bottom: 70px;
-}
-.Call-fab-container.floatingButtonPage0 {
-  bottom: 138px;
-}
-
-.footer.floatingButtonPage0{
-  margin-bottom: 57.14px;
-}
 .whoShouldAvoidPanchakarma .container>.row{
   flex-direction: column-reverse;
 }
