@@ -89,7 +89,7 @@ function loadHeaderFooter(callback) {
                       </div>
                       <div class="footConText">
                         <h5 class="fifthH">Mail Us</h5>
-                        <a class="footerLinkHover" target="_blank" href="mailto:rudveda4@yoga.com">rudveda4@yoga.com</a>  
+                        <a class="footerLinkHover" target="_blank" href="mailto:contact@rudvedathehealingcenter.com">contact@rudvedathehealingcenter.com</a>  
                       </div>
                     </div>
                   </div>

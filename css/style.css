@@ -902,6 +902,7 @@ max-width: 175px;
 
 /* astrology Services start */
 .astroServiceCard{
+  position: relative;
   height: 100%;
   text-align: center;
   padding: 12px;
@@ -922,6 +923,16 @@ max-width: 175px;
   color: var(--secondary-color);
 }
 
+
+.astroServiceCard a{
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.astroServiceCard .absAnchor{
+  position: absolute;
+  inset: 0;
+}
+
 .astroServiceCard:hover{
   background: url('../image/serviceCardBack.webp') center/cover no-repeat;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
@@ -929,7 +940,7 @@ max-width: 175px;
 .astroServiceCard:hover .astrocardText{
   color: #ffffff;
 }
-.astroServiceCard:hover .astrocardText p{
+.astroServiceCard:hover .astrocardText p,.astroServiceCard:hover a{
   color: #ffffff;
 }
 /* astrology Services end */
