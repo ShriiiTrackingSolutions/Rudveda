@@ -43,6 +43,10 @@
     font-size: 13px;
 }
 
+    .addressBox.col-lg-auto {
+      max-width: 324px;
+    }
+
 }
 
 @media (max-width: 1024.98px) {
@@ -144,6 +148,10 @@ max-width: 342px;
   flex-direction: column-reverse;
 }
 
+.addressBox.col-lg-auto {
+  max-width: 100%;
+}
+
 }
 
 
@@ -176,6 +184,7 @@ max-width: 342px;
   flex-direction: row !important;
   gap: 8px;
 }
+
 }
 
  @media screen and (max-width: 600px) {
@@ -255,6 +264,10 @@ transform: translateY(-50%);
     transform: unset;
     width: auto;
   }
+
+.callLinkwrap a{
+  font-size: 14px;
+}
 }
 
 @media only screen and (max-height: 539.98px) {
