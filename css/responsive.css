@@ -24,15 +24,14 @@
     font-size: 48px;
     line-height: 84px;
   }
-  .secH,
-  .therdH {
-    line-height: 62px;
-  }
   .secH {
     font-size: 36px;
+    line-height: 62px;
   }
+
   .therdH {
     font-size: 26px;
+    line-height: 44px;
   }
 
   .VastuForYourSpace .container>.row{
@@ -183,6 +182,10 @@ max-width: 342px;
   margin-right: 0 !important;
   flex-direction: row !important;
   gap: 8px;
+}
+
+.formSection .formPart {
+    padding: 92px 36px;
 }
 
 }
